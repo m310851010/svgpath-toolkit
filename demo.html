@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+ <head>
+	<meta charset="UTF-8">
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>  
+    <title>Document</title>  
+	<meta name="Author" content="mdc">
+	<style type="text/css" rel="stylesheet">
+	</style>
+ </head>  
+<body>
+
+<svg style="display:none" t="1626313488882" class="icon"  viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1817">
+	<path id="p1" d="M978.816 705.504h-75.296V509.76c0-24.896-20.256-45.152-45.152-45.152H542.08V313.984h75.296c24.928 0 45.184-20.256 45.184-45.184V57.984c0-24.96-20.256-45.184-45.184-45.184h-210.816c-24.928 0-45.184 20.256-45.184 45.184V268.8c0 24.928 20.256 45.184 45.184 45.184h75.296v150.592H165.632c-24.896 0-45.152 20.256-45.152 45.152v195.776H45.184C20.224 705.504 0 725.76 0 750.72v210.816c0 24.928 20.256 45.184 45.184 45.184H256c24.928 0 45.184-20.256 45.184-45.184V750.72c0-24.96-20.256-45.184-45.184-45.184H180.704V524.8h301.184v180.704h-75.296c-24.928 0-45.184 20.256-45.184 45.184v210.816c0 24.928 20.256 45.184 45.184 45.184h210.816c24.928 0 45.184-20.256 45.184-45.184V750.72c0-24.96-20.256-45.184-45.184-45.184h-75.296V524.8h301.184v180.704H768c-24.928 0-45.184 20.256-45.184 45.184v210.816c0 24.928 20.256 45.184 45.184 45.184h210.816c24.96 0 45.184-20.256 45.184-45.184V750.72c0-24.96-20.256-45.184-45.184-45.184zM421.632 73.024h180.736V253.76h-180.736V73.024zM240.96 765.76v180.704H60.224V765.76H240.96z m361.44 180.704h-180.736V765.76h180.736v180.704z m361.408 0H783.04V765.76h180.704v180.704z" p-id="1818"></path></svg>
+
+<svg t="1626313488882" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1817"><path id="p2" d="" p-id="1818"></path></svg>
+<script src="dist/index.js"></script>
+<script>
+	var SvgPath = svgpathToolkit.SvgPath;
+	var path = document.getElementById('p1').getAttribute('d');
+
+	var flippedPath = SvgPath(path)
+                    .scale(15 / 1024)
+                    .translate(7, 7)
+                    .rel()
+                    .toString();
+
+	document.getElementById('p2').setAttribute('d', flippedPath);
+</script>
+</body>  
+</html>  
