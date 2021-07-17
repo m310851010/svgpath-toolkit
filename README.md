@@ -148,4 +148,4 @@ stacked transforms prior to run. That can be useful to optimize calculations.
 license
 -------
 
-MIT. Copyright (C) [Feross Aboukhadijeh](http://feross.org), and other contributors. Originally forked from an MIT-licensed module by Romain Beauxis.
+MIT
